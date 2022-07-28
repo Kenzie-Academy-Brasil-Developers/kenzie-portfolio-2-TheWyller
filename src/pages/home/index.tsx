@@ -58,8 +58,13 @@ export const Home = (): JSX.Element => {
               projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Sou formado em Engenharia Civil e Mecânica, e atualmente estou no
+              curso de Full-Stack na Kenzie Academy Brasil. Entrei em contato
+              com a programação no meu Trabalho de conclusão de Curso (TCC),
+              programar em Javascript me deixou fascinado, e dado a isso, decidi
+              me arriscar na área da tecnologia. Em seis meses de curso, na
+              Kenzie, já pude desenvolver os seguintes Hard Skills. JavaScript,
+              React, HTML, CSS, Git e metodologias ágeis como Scrum.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
@@ -69,7 +74,7 @@ export const Home = (): JSX.Element => {
                 as="a"
                 type="circle"
                 target="_blank"
-                href={userData.githubUser}
+                href={"https://github.com/TheWyller"}
               >
                 <FaGithub />
               </Button>
